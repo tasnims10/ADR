@@ -8,9 +8,9 @@ Service oriented architecture
 Three tier architecture
 …
 Decision Outcome
-Chosen option: "Model-View-Controller", because {justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force {force} | … | comes out best (see below)}.
+Chosen option: "Model-View-Controller", because model handles data and business logic, the view manages presentation which is important for how the interface is presented to the users, the controller handles user input and connects the model and view.
 
 Consequences
-Good, because {positive consequence, e.g., improvement of one or more desired qualities, …}
-Bad, because {negative consequence, e.g., compromising one or more desired qualities, …}
+Good, because each part of the application will have its own job, which is useful as it reduces redundancy and ensures all basis are covered.
+Bad, because can slow down development as theres more to set up which is time consuming.
 …
